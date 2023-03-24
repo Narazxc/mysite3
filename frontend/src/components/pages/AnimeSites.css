@@ -1,0 +1,17 @@
+.top-most-div {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+    url("https://wallpaperaccess.com/full/839066.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.top-most-div h2 {
+  color: rgb(251, 130, 170);
+}
+
+a {
+  color: rgb(108, 168, 149);
+}

@@ -1,0 +1,13 @@
+.character-detail-page-scope {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.character-detail-page-scope .background-story-title {
+  margin: 0;
+}
+
+.character-detail-page-scope .background-story {
+  line-height: 1.5em;
+}

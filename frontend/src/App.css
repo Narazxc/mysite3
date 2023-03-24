@@ -1,0 +1,13 @@
+.App {
+  height: 100vh;
+}
+
+.wrapper {
+  width: 100%;
+  padding-left: 280px;
+}
+
+nav {
+  position: fixed;
+  height: 100%;
+}

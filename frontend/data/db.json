@@ -1,0 +1,120 @@
+{
+  "datas": [
+    {
+      "id": "1",
+      "name": "9anime",
+      "url": "https://9anime.to"
+    },
+    {
+      "id": "2",
+      "name": "nhentai",
+      "url": "https://9anime.to"
+    },
+    {
+      "id": "3",
+      "name": "manganelo",
+      "url": "https://manganato.com/"
+    },
+    {
+      "id": "4",
+      "name": "MangaDex",
+      "url": "https://mangadex.org/"
+    },
+    {
+      "name": "youtube",
+      "url": "https://www.youtube.com/",
+      "id": "ngIHMry"
+    },
+    {
+      "name": "googoogaagaa",
+      "url": "xnxas",
+      "id": "WgdRxty"
+    }
+  ],
+  "characters": [
+    {
+      "id": "1",
+      "pic": "https://fictionhorizon.com/wp-content/uploads/2021/08/1608125060_One-Piece-this-is-how-Luffy-would-be-if-he-1024x535.jpeg",
+      "anime": "One Piece",
+      "name": "Luffy",
+      "backgroundStory": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "id": "2",
+      "pic": "https://preview.redd.it/hzhodmhyw0b71.jpg?width=640&crop=smart&auto=webp&v=enabled&s=0f439445980ee56a5ccbcc1fb924d5b2a8666db2",
+      "anime": "BERSERK",
+      "name": "Guts",
+      "backgroundStory": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "id": "3",
+      "pic": "https://cdn.myanimelist.net/images/characters/15/484116.jpg",
+      "anime": "Isekai Ojisan",
+      "name": "Ojisan",
+      "backgroundStory": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "id": "4",
+      "pic": "https://64.media.tumblr.com/0219bb874835acb46305b7effefaa742/b72d754569753035-e2/s540x810/74564ead38e7f2f2bcf4efb1891b924493be128d.jpg",
+      "anime": "Ore no Genjitsu wa Renai Game??",
+      "name": "Ryou Hasegawa",
+      "backgroundStory": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "id": "6",
+      "pic": "https://i.kym-cdn.com/photos/images/original/001/666/350/1a3.png",
+      "anime": "One Punch Man",
+      "name": "Saitama",
+      "backgroundStory": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "id": "5",
+      "pic": "https://starcrossedanime.com/wp-content/uploads/2020/08/Re-Zero-kara-Hajimeru-Isekai-Seikatsu-29-7.jpg",
+      "anime": "Re:Zero",
+      "name": "Subaru",
+      "backgroundStory": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "id": "7",
+      "pic": "https://fictionhorizon.com/wp-content/uploads/2021/08/1608125060_One-Piece-this-is-how-Luffy-would-be-if-he-1024x535.jpeg",
+      "anime": "One Piece",
+      "name": "Luffy",
+      "backgroundStory": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "id": "8",
+      "pic": "https://preview.redd.it/hzhodmhyw0b71.jpg?width=640&crop=smart&auto=webp&v=enabled&s=0f439445980ee56a5ccbcc1fb924d5b2a8666db2",
+      "anime": "BERSERK",
+      "name": "Guts",
+      "backgroundStory": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "id": "9",
+      "pic": "https://cdn.myanimelist.net/images/characters/15/484116.jpg",
+      "anime": "Isekai Ojisan",
+      "name": "Ojisan",
+      "backgroundStory": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "id": "10",
+      "pic": "https://64.media.tumblr.com/0219bb874835acb46305b7effefaa742/b72d754569753035-e2/s540x810/74564ead38e7f2f2bcf4efb1891b924493be128d.jpg",
+      "anime": "Ore no Genjitsu wa Renai Game??",
+      "name": "Ryou Hasegawa",
+      "backgroundStory": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "id": "11",
+      "pic": "https://i.kym-cdn.com/photos/images/original/001/666/350/1a3.png",
+      "anime": "One Punch Man",
+      "name": "Saitama",
+      "backgroundStory": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "id": "12",
+      "pic": "https://starcrossedanime.com/wp-content/uploads/2020/08/Re-Zero-kara-Hajimeru-Isekai-Seikatsu-29-7.jpg",
+      "anime": "Re:Zero",
+      "name": "Subaru",
+      "backgroundStory": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    }
+  ]
+}

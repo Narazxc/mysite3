@@ -4,7 +4,7 @@ import axios from "axios";
 // styles
 import "./Modal.css";
 
-export default function Modal() {
+export default function Modal({ notify }) {
   const [showModal, setShowModal] = useState(false);
   const [name, setName] = useState("");
   const [anime, setAnime] = useState("");
@@ -115,6 +115,7 @@ export default function Modal() {
       .then(function (res) {
         setMsg("Upload successful");
         console.log("new workout added", res.data);
+        notify();
 
         handleFieldReset();
       })

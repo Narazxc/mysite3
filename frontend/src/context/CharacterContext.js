@@ -1,9 +1,17 @@
 import { createContext, useReducer } from "react";
 
-const CharacterContext = createContext();
+export const CharacterContext = createContext();
 
-const characterReducer = (state, action) => {
+export const characterReducer = (state, action) => {
   switch (action.type) {
+    case "SET_CHARACTERS":
+      return { characters: action.payload };
+    case "DELETE_CHARACTER":
+      return {
+        characters: state.characters.filter(
+          (c) => !(c._id === action.payload._id)
+        ),
+      };
     default:
       return state;
   }
@@ -11,7 +19,7 @@ const characterReducer = (state, action) => {
 
 export default function CharacterContextProvider({ children }) {
   const [state, dispatch] = useReducer(characterReducer, {
-    character: null,
+    characters: null,
   });
 
   return (

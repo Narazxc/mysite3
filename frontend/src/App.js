@@ -1,6 +1,6 @@
 import "./App.css";
-import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
 
 // page components
 import Home from "./components/pages/Home";
@@ -20,6 +20,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
+        <ToastContainer />
         {/* <Link to="/">Home</Link>
         <Link to="/animesites">Anime Sites</Link> */}
         <SideNavigation />

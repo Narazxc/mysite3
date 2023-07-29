@@ -1,73 +1,64 @@
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 import { useFetch } from "../hooks/useFetch";
 import { Link } from "react-router-dom";
+import axios from "axios";
+import useCharactersContext from "../../hooks/useCharactersContext";
+
+// react-toastify
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 // styles
 import "./FavoriteCharacters.css";
 
 // components
 import Breadcrumbs from "../Breadcrumbs";
-import axios from "axios";
 
 export default function FavoriteCharacters() {
   // http://localhost:3012/characters
-  const {
-    data: characters,
-    setData: setCharacters,
-    isPending,
-    error,
-  } = useFetch("http://localhost:3020/api/favoritecharacters/");
+  const { characters, dispatch } = useCharactersContext();
+  const [isPending, setIsPending] = useState(false);
+  const [error, setError] = useState(null);
 
-  // const [characters, setCharacters] = useState(null);
-  // const [isPending, setIsPending] = useState(false);
-  // const [error, setError] = useState(null);
+  const notify = () => toast("Wow so easy !");
 
-  // useEffect(() => {
-  //   async function fetch() {
-  //     setIsPending(true);
-  //     setError(null);
+  useEffect(() => {
+    async function fetch() {
+      setIsPending(true);
+      setError(null);
 
-  //     await axios
-  //       .get("http://localhost:3020/api/favoritecharacters/")
-  //       .then(function (response) {
-  //         setIsPending(false);
-  //         setError(null);
-  //         console.log(response.statusText, response.status);
-  //         setCharacters(response.data);
-  //       })
-  //       .catch(function (error) {
-  //         setIsPending(false);
-  //         setError("Could not fetch data");
-  //         console.log(error);
-  //       });
-  //   }
+      await axios
+        .get("http://localhost:3020/api/favoritecharacters/")
+        .then(function (response) {
+          setIsPending(false);
+          setError(null);
+          dispatch({ type: "SET_CHARACTERS", payload: response.data });
+          console.log(response.statusText, response.status);
+        })
+        .catch(function (error) {
+          setIsPending(false);
+          setError("Could not fetch data");
+          console.log(error);
+        });
+    }
 
-  //   fetch();
-  // }, []);
+    fetch();
+  }, []);
 
   console.log(characters);
 
-  const handleDelete = (e, characterId) => {
+  const handleDelete = async (e, characterId) => {
     e.preventDefault();
 
     // delete from db on the server
-    axios
-      .delete(
-        `http://localhost:3020/api/favoritecharacters/characters/${characterId}`
-      )
+    await axios
+      .delete(`http://localhost:3020/api/favoritecharacters/${characterId}`)
       .then(function (response) {
-        // delete locally for to update state & rerender
-        // const updatedList = characters.filter(
-        //   (item) => item._id !== characterId
-        // );
-        // setCharacters(updatedList);
-
-        setCharacters((prevCharacters) =>
-          prevCharacters.filter((item) => item._id !== characterId)
-        );
+        dispatch({ type: "DELETE_CHARACTER", payload: response.data });
 
         console.log("In Frontend: delete character:", characterId);
         console.log("after removed: " + characters);
+        notify();
         console.log(response.data.msg);
       })
       .catch(function (error) {
@@ -90,7 +81,7 @@ export default function FavoriteCharacters() {
                   key={character._id}
                   className="col-xxl-3 col-lg-4 col-md-6 card-wrapper"
                 >
-                  <Link to={`/favoritecharacters/${character._id}`}>
+                  <Link to={`/favoritecharacters/${character.slug}`}>
                     <div className="card" style={{ width: "18rem" }}>
                       <div>
                         <span
@@ -116,7 +107,7 @@ export default function FavoriteCharacters() {
                       <div className="card-body">
                         <p className="card-text  m-0">Name: {character.name}</p>
                         <p className="card-text ">Anime: {character.anime}</p>
-                        <p className="card-text  m-0">Back story:</p>
+                        <p className="card-text  m-0">Backstory:</p>
                         <p className="card-text ">
                           {character.backgroundStory.substring(0, 120)}...
                         </p>

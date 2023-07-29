@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import { toast } from "react-toastify";
+
+import "react-toastify/dist/ReactToastify.css";
 
 // styles
 import "./Home.css";
@@ -7,6 +10,8 @@ import "./Home.css";
 import MyVerticallyCenteredModal from "../Modal";
 
 export default function Home() {
+  const notify = () => toast("Wow so easy !");
+
   return (
     <div id="venta" className="top-most-div px-5 py-5">
       <div>
@@ -34,7 +39,7 @@ export default function Home() {
         <Link className="btn btn-primary" type="button" to="/addsite">
           Add more site
         </Link>
-        <MyVerticallyCenteredModal />
+        <MyVerticallyCenteredModal notify={notify} />
       </div>
     </div>
   );

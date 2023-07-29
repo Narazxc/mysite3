@@ -38,6 +38,21 @@
 } */
 
 /* temp */
+.create {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  height: 100vh;
+}
+
 .create form label {
   display: block;
+}
+
+.create form {
+  border: none;
+  box-shadow: 1px;
+}
+
+.create .cstm-bg {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(3px) saturate(170%);
 }

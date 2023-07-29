@@ -1,7 +1,8 @@
 .character-detail-page-scope {
-  background-color: black;
-  height: 100%;
+  /* background-color: black; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
   width: 100%;
+  overflow-x: hidden;
 }
 
 .character-detail-page-scope .background-story-title {
@@ -10,4 +11,9 @@
 
 .character-detail-page-scope .background-story {
   line-height: 1.5em;
+  margin-bottom: 100px;
+}
+
+.img-fluid {
+  max-height: 700px;
 }

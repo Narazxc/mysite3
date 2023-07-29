@@ -1,11 +1,28 @@
 .App {
   height: 100vh;
+  display: flex;
+  background-image: url("https://i.pinimg.com/originals/e6/d7/57/e6d757c9eab68dcd8dc1b33d0643a6fc.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .wrapper {
   width: 100%;
-  padding-left: 280px;
+  /* padding-left: 280px; */
+  margin-left: 280px;
+
+  /* height: 100%; */
 }
+
+.container-fluid {
+  padding: 0;
+}
+
+/* .cstm-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+} */
 
 nav {
   position: fixed;

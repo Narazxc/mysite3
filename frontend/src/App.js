@@ -8,12 +8,13 @@ import AnimeSites from "./components/pages/AnimeSites";
 import Error404 from "./components/pages/Error404";
 import FavoriteCharacters from "./components/pages/FavoriteCharacters";
 import CharacterDetail from "./components/pages/CharacterDetail";
-import Create from "./components/pages/temp/Create";
+import Create from "./components/pages/site/Create";
 import Login from "./components/pages/login/Login";
 import Signup from "./components/pages/signup/Signup";
 
 // components
 import SideNavigation from "./components/SideNavigation";
+import Breadcrumbs from "./components/Breadcrumbs";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
         <Link to="/animesites">Anime Sites</Link> */}
         <SideNavigation />
         <div className="wrapper">
-          <div className="container-fluid">
+          <div className="container-fluid cstm-bg">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/animesites" element={<AnimeSites />} />
@@ -32,7 +33,7 @@ function App() {
                 element={<FavoriteCharacters />}
               />
               <Route
-                path="/favoritecharacters/character/:id"
+                path="/favoritecharacters/:id"
                 element={<CharacterDetail />}
               />
               <Route path="/addsite" element={<Create />} />

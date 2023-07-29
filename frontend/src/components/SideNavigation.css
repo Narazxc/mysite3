@@ -1,3 +1,17 @@
 nav {
-  background-color: black;
+  /* background-color: black; */
+  background: rgba(0, 0, 0, 0.8);
+}
+
+nav ul li:hover {
+  background-color: rgb(255, 192, 203, 0.5);
+  border-radius: 6px;
+}
+
+/* nav ul li a:active {
+  background-color: pink;
+} */
+
+.nav-pills .nav-link.active {
+  background-color: rgb(255, 192, 203, 0.9);
 }

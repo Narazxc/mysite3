@@ -3,9 +3,12 @@ import { Link } from "react-router-dom";
 // styles
 import "./Home.css";
 
+// components
+import MyVerticallyCenteredModal from "../Modal";
+
 export default function Home() {
   return (
-    <div className="top-most-div px-5 py-5">
+    <div id="venta" className="top-most-div px-5 py-5">
       <div>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
@@ -31,6 +34,7 @@ export default function Home() {
         <Link className="btn btn-primary" type="button" to="/addsite">
           Add more site
         </Link>
+        <MyVerticallyCenteredModal />
       </div>
     </div>
   );
